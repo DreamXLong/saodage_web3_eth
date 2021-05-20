@@ -1,8 +1,9 @@
 
 
+//wss://mainnet.infura.io/ws/v3/44d1a5fa24b64ab78cec58d729199f02
 
 // 据说infura的接口不支持filter
-var web3 = new Web3('wss://mainnet.infura.io/ws/v3/451274b754d142228300d8771e2af24e');
+var web3 = new Web3('wss://mainnet.infura.io/ws/v3/44d1a5fa24b64ab78cec58d729199f02');
 
 var subscription;
 var nodes = [];
