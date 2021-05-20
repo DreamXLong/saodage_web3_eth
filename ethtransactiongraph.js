@@ -1,6 +1,7 @@
-
-
 //wss://mainnet.infura.io/ws/v3/44d1a5fa24b64ab78cec58d729199f02
+
+import { decodeMethod } from "./node_modules/abi-decoder";
+
 
 // 据说infura的接口不支持filter
 var web3 = new Web3('wss://mainnet.infura.io/ws/v3/44d1a5fa24b64ab78cec58d729199f02');
@@ -24,10 +25,11 @@ function start() {
                         console.log(transaction);
                         // 如果filter不能处理筛选 在这里自行判断合约地址做筛选处理
                         // 自动下单也在这里进行
-
+                        console.log(decodeMethod(transaction.input));
                         
                         // 创建图形化节点  不需要
                         // createNode(transaction.from, transaction.to);
+                        
                     }
                 });
         })
@@ -124,4 +126,3 @@ function ticked() {
         .attr("x2", function (d) { return d.target.x; })
         .attr("y2", function (d) { return d.target.y; });
 }
-
