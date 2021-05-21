@@ -1,5 +1,5 @@
-{
-  "compilerOptions": {
+{  
+    "compilerOptions": {
     "allowUnreachableCode": true, // 不报告执行不到的代码错误。
     "allowUnusedLabels": false,	// 不报告未使用的标签错误
     "alwaysStrict": false, // 以严格模式解析并为每个源文件生成 "use strict"语句
@@ -45,6 +45,3 @@
     "demo.ts"
   ]
 }
-————————————————
-版权声明：本文为CSDN博主「若阴若险」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/xiaotiantian1993s/article/details/91536379
