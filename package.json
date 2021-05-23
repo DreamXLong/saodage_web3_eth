@@ -1,0 +1,31 @@
+{
+  "name": "saodage_web3_eth",
+  "version": "1.0.0",
+  "description": "Using Infura's WebSockets, Web3.js's Subscriptions, and D3.js's Force Directed Graphs to visualize Ethereum's pending transactions.",
+  "main": "client.js",
+  "dependencies": {
+    "abi-decoder": "^2.4.0",
+    "bower": "^1.8.12",
+    "cli": "^1.0.1",
+    "eth": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "git": "^0.1.5",
+    "http": "^0.0.1-security",
+    "url": "^0.11.0",
+    "web3": "^1.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "node client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreamXLong/saodage_web3_eth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DreamXLong/saodage_web3_eth/issues"
+  },
+  "homepage": "https://github.com/DreamXLong/saodage_web3_eth#readme"
+}
